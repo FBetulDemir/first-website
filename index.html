@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <!-- css document is not linked, perhaps they should be in the same file?  -->
+    <link rel="stylesheet" href="styles/index.css">
     <title>Curriculum Vitae</title>
 </head>
 <body>
+    <header>
     <h1>Betül Demir</h1>
     <p>Front-end Developer</p>
-    <img src="image.jpg" alt="Profile photo of Betül Demir smiling to the camera with a blurry background.">
-    <!--The same problem with the image. It cannot be seen on the webpage.  -->
-    <div> 
+    <img src="images/image.jpg" alt="Profile photo of Betül Demir smiling to the camera with a blurry background.">
+    </header>
+    
+    <main>
+    <div class="contact-info"> 
         <h2>Contact Information:</h2>
         <p><b>Adress:</b> Sagogången 54, 42245 / Gothenburg / Sweden </p>
         <p><b>Email:</b> fatmabetuld@gmail.com</p>
@@ -20,8 +22,9 @@
         <a href="https://www.linkedin.com/">Linkedin</a><br>
         <a href="https://github.com/FBetulDemir">Github</a>
     </div>
-    <!-- div or section? which one is proper for this context? -->
-    <div>
+    
+    
+    <div class="Previous-employment">
         <h2>Previous Employment</h2>
         <ul>
             <li><i><b>February, 2023 - nu</b> Lesure time teacher (Part-time), Åkeredsskolan, Gothenburg.</i></li>
@@ -32,11 +35,11 @@
 
     </div>
 
-    <div>
+    <div class="Education">
         <h2>Education</h2>
         <ul>
             <i>
-            <li><b>Jan.,2024 - nu</b> IT - Tech for Women, <br> Sundsgårdens Folkhögskola, Rydebäck.</li>
+            <li><b>Jan., 2024 - nu</b> IT - Tech for Women, <br> Sundsgårdens Folkhögskola, Rydebäck.</li>
             <li><b>Sep., 2019 - Mars, 2023</b> Svenska som Andraspråk 1, 2, 3, <br>Odinsskolan, Cuben Utbildning, Gothenburg.</li>
             <li><b>Sep., 2018 - Mars, 2019</b> Svenska för Invandrare, <br> Odinsskolan.</li>
             <li><b>Dec., 2020 - Dec., 2021</b> IT-Support and Service Desk Technician, <br> Campus Mölndal, Gothenburg.</li>
@@ -46,7 +49,7 @@
 
     </div>
 
-    <div>
+    <div class="skills">
         <h2>Skills</h2>
         <ul>
             <li>HTML</li>
@@ -55,7 +58,7 @@
         </ul>
     </div>
 
-    <div>
+    <div class="languages">
         <h2>Languages</h2>
         <ol>
             <li>Turkish - <i>Native language</i></li>
@@ -63,11 +66,11 @@
             <li>Swedish -  <i>Professional working proficiency</i></li>
         </ol>
     </div>
-
+    </main>
     <footer>
         <p><b>References:</b> Available upon request.</p>
     </footer>
 
-
+ 
 </body>
 </html>

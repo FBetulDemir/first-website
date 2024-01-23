@@ -1,7 +1,68 @@
 h1{
-    color: aqua;
+    color: blanchedalmond;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+
+header{
+    background-color: rgb(47, 79, 79, 0.7);
+    color: blanchedalmond;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    background-color: darkcyan;
+    font-size: 30px;
+    color: blanchedalmond;
+    opacity: 0.5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer{
+    background-color: darkslategray;
+    color: blanchedalmond;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-left: 30px;
 }
 
 body{
     background-color: blanchedalmond;
+    background-image: url(../images/pattern.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    /* opacity: 0.5; 
+    I have tried out different codes you have presented
+    in order to show it, I did not delete them 
+    (same in line 55)*/
+    line-height: 1.8;
 }
+
+img {
+    width: 200px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid bisque;
+    /* box-shadow: 10px 10px rgb(214, 212, 212); */
+}
+
+.languages{
+    margin-bottom: 100px;
+}
+
+
+/* I have tried to position Skills, Education, etc. 
+side by side with the photo and the contact info. by using class.
+ However, I failed to do aesthetically pleasing
+ Any suggestions? */
